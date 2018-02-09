@@ -9,7 +9,9 @@ public class ConsoleInput {
         System.out.println("Hello, please enter number: ");
         // comment
         /*
+
          comment
+
          */
 
         Scanner scanner = new Scanner(System.in);
