@@ -18,7 +18,8 @@ public class IfIfExample {
 
         if (userInput > 0) {
             System.out.println("More than zero");
-            return;
         }
+
+        System.out.println("Hello world!");
     }
 }
