@@ -20,9 +20,13 @@ public class Pow {
     }
 
     public static int pow(int number, int pow) {
-        for (int i = 1; i < pow; i++) {
-            number = number * number;
+        if (pow == 0) {
+            return 1;
         }
-        return number;
+        int result = number;
+        for (int i = 1; i < pow; i++) {
+            result = number * result;
+        }
+        return result;
     }
 }
