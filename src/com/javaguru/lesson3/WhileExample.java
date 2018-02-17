@@ -8,5 +8,6 @@ public class WhileExample {
             System.out.println(i);
             i++;
         }
+        System.out.println("Last result: " + i);
     }
 }
