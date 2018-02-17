@@ -8,11 +8,9 @@ public class EvenNumbers {
         int firstNumber = getNumberFromUser();
         int secondNumber = getNumberFromUser();
 
-        if (firstNumber < secondNumber) {
-            for (int i = firstNumber; i <= secondNumber ; i++) {
-                if(i % 2 == 0) {
-                    System.out.println(i);
-                }
+        for (int i = firstNumber; i <= secondNumber; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
             }
         }
     }
