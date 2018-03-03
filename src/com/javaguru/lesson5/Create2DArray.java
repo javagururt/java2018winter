@@ -10,11 +10,11 @@ public class Create2DArray {
         printArray(array);
     }
 
-    public static int[][] create2DArray(int x, int y) {
+    private static int[][] create2DArray(int x, int y) {
         return new int[x][y];
     }
 
-    public static void fillArray(int[][] array) {
+    private static void fillArray(int[][] array) {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
@@ -23,7 +23,7 @@ public class Create2DArray {
         }
     }
 
-    public static void printArray(int[][] array) {
+    private static void printArray(int[][] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + " ");

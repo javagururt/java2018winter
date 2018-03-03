@@ -2,13 +2,13 @@ package com.javaguru.lesson5;
 
 import java.util.Random;
 
-public class ArrayUtils {
+class ArrayUtils {
 
-    public static int[] createArray(int size) {
+    static int[] createArray(int size) {
         return new int[size];
     }
 
-    public static void fillArrayWithRandomNumbers(int[] array) {
+    static void fillArrayWithRandomNumbers(int[] array) {
         Random randomNumberGenerator = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = randomNumberGenerator.nextInt(101);
