@@ -1,4 +1,4 @@
-package com.javaguru.lesson6;
+package com.javaguru.lesson6.cat;
 
 class Cat {
 
