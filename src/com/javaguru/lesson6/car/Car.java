@@ -9,6 +9,19 @@ class Car {
     private double speed;
     private int year;
 
+    Car(String color, String manufacturer, int year) {
+        this.color = color;
+        this.manufacturer = manufacturer;
+        this.year = year;
+    }
+
+    Car(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    Car() {
+    }
+
     void drive() {
         System.out.println("Brrr brrr");
         while (true) {
@@ -17,7 +30,6 @@ class Car {
             }
             speed++;
             System.out.println(speed);
-
         }
     }
 
