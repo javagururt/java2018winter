@@ -9,11 +9,29 @@ class Door {
     private String size;
     private String manufacturer;
 
+    public Door() {
+    }
 
     Door(String color, String material, String size, String manufacturer) {
         this.color = color;
         this.material = material;
         this.size = size;
+        this.manufacturer = manufacturer;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
     }
 
