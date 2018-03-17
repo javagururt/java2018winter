@@ -1,4 +1,4 @@
-package com.javaguru.lesson7;
+package com.javaguru.lesson7.doors;
 
 class DoorMain {
 
