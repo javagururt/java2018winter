@@ -1,6 +1,5 @@
 package com.javaguru.lesson8;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -21,7 +20,7 @@ class ArrayListVsLinkedList {
         long start = System.currentTimeMillis();
 
         for (int i = 0; i < 1_000_000; i++) {
-            integers.add(0,i);
+            integers.add(0, i);
         }
 
         long stop = System.currentTimeMillis();
