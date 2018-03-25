@@ -13,7 +13,7 @@ class ArrayListFillingStart {
         }
         long stop = System.currentTimeMillis();
         long result = stop - start;
-        System.out.println("Filling LinkedList(end) with " + integers.size() + " elements, takes: " + result + " ms");
+        System.out.println("Filling ArrayList(end) with " + integers.size() + " elements, takes: " + result + " ms");
 
     }
 }
