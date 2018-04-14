@@ -1,17 +1,17 @@
 package com.javaguru.lesson10.students;
 
-class SeniorDeveloper extends MiddleDeveloper {
+public class SeniorDeveloper extends MiddleDeveloper {
 
     public SeniorDeveloper(String name) {
         super(name);
     }
 
-    void solveProblems() {
+    public void solveProblems() {
         System.out.println("I'm the best of the best");
     }
 
     @Override
-    void learnSomething() {
+    public void learnSomething() {
         System.out.println("Senior: Nothing to learn? Or ...");
     }
 }

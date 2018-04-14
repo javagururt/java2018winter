@@ -1,17 +1,17 @@
 package com.javaguru.lesson10.students;
 
-class JuniorDeveloper extends Student {
+public class JuniorDeveloper extends Student {
 
     public JuniorDeveloper(String name) {
         super(name);
     }
 
     @Override
-    void learnSomething() {
+    public void learnSomething() {
         System.out.println("Junior: So so");
     }
 
-    void writeCode() {
+    public void writeCode() {
         System.out.println("WOWOWO I'm writing code WOWO O.o ");
     }
 }

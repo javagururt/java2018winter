@@ -1,6 +1,6 @@
 package com.javaguru.lesson10.students;
 
-class Student {
+public class Student {
 
     protected String name;
 
@@ -8,7 +8,7 @@ class Student {
         this.name = name;
     }
 
-    void learnSomething() {
+    public void learnSomething() {
         System.out.println("Student: Learning processes");
     }
 
