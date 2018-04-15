@@ -1,6 +1,5 @@
 package com.javaguru.lesson10.shapes;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

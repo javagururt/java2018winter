@@ -10,9 +10,6 @@ class Rectangle extends Shape {
         this.sideB = sideB;
     }
 
-    public Rectangle() {
-    }
-
     @Override
     double getArea() {
         return sideA * sideB;
