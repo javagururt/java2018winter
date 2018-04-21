@@ -39,7 +39,9 @@ class MatchBox {
 
     void putMatch(Match match) throws MatchBoxException {
         checkMatchBoxOpened();
-        //TODO: check NPE
+        if (match == null) {
+            throw new MatchValidationException("Match must be not null");
+        }
         if (matches.size() >= MATCHBOX_CAPACITY) {
             throw new MatchBoxException("Matchbox is full");
         }

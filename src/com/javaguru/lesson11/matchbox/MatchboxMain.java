@@ -7,6 +7,8 @@ class MatchboxMain {
         try {
             matchBox.open();
 
+            matchBox.putMatch(null);
+
             for (int i = 0; i < MatchBox.MATCHBOX_CAPACITY; i++) {
                 matchBox.putMatch(new Match());
             }
@@ -21,6 +23,8 @@ class MatchboxMain {
         } catch (MatchBoxException | BurnedMatchException e) {
             e.printStackTrace();
             System.out.println("Matchbox size: " + matchBox.getMatchBoxSize());
+        } catch (MatchValidationException e) {
+            System.out.println(e.getMessage());
         }
 
     }
